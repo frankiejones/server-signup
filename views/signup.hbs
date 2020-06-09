@@ -1,0 +1,35 @@
+<h1> Sign up page</h1>
+<div className="contact">
+    <div className="wrap-conatiner">
+        <form action="/signup" method="POST">
+            <span className="form-title">sign up!</span>
+            <div className="wrap-input">
+            <input id="userName" className="input" type="userName" name="userName" placeholder="Eg. Frankie123"/>
+            <span className="focus-input"></span>
+        </div>
+            <label className="label-input" for="firstName">Your name*</label>
+        <div className="wrap-input">
+            <input id="firstName" className="input" type="text" name="firstName" placeholder="First name"/>
+            <span className="focus-input"></span>
+        </div>
+         <div className="wrap-input">
+            <input id="lastName" className="input" type="text" name="lastName" placeholder="Last name"/>
+            <span className="focus-input"></span>
+        </div>
+        <label className="label-input" for="email">Email Address*</label>
+        <div className="wrap-input">
+            <input id="email" className="input" type="email" name="email" placeholder="Eg. example@email.com"/>
+            <span className="focus-input"></span>
+        </div>
+        <div className="wrap-input">
+            <input id="password" className="input" type="password" name="password" placeholder="Eg. password123"/>
+            <span className="focus-input"></span>
+        </div>
+        <div className="container-button">
+            <button className="buttons">
+            <span>"Submit"<i className="arrow-button"></i>
+            </span>
+        </button>
+        </div>
+    </form>
+</div>
