@@ -1,8 +1,8 @@
 <h1>Log in page</h1>
 
-<form action="login.hbs" method="POST">
+<form action="/login" method="POST">
     <div className="wrap-input">
-        <input id="email" className="input" type="email" name="email" placeholder="Eg. example@email.com"/>
+        <input id="userName" className="userName" type="userName" name="userName" placeholder=" eg. username123"/>
                 <span className="focus-input"></span>
     </div>
     <div className="wrap-input">
@@ -16,3 +16,5 @@
         </button>
      </div>
 </form>
+
+<p>{{err}}</p>
